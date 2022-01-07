@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Submit</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+	</head>
+    <div class="container">
+      <!-- Codrops top bar -->
+      <div class="codrops-top clearfix">
+        <span class="right">
+          <a href="#mailinglist">Join our Mailing List</a>
+        </span>
+      </div><!--/ Codrops top bar -->
+      <header class="clearfix">
+        <h1>The Book Cover</h1>
+        <div id="logo"></div>
+				<div class="topnav" id="myTopnav">
+					<div class="nav">
+						 <a href="#" id="menu-icon"></a>
+						 <ul>
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="collection.html">COLLECTION</a></li>
+								<li><a href="submit.html">SUBMIT</a></li>
+								<li><a href="community.html">COMMUNITY</a></li>
+								<li><a href="about.html">ABOUT</a></li>
+						 </ul>
+					</div>
+				</div>
+      </header>
+			<body>
+
+      <div class="form">
+  <form method="post" action="contactengine.php">
+  <label for="Name">Name:</label>
+  <input type="text" name="Name" id="Name" placeholder="First Last">
+  <br/>
+  <br>
+  <label for="Email" >Email:</label>
+  <input type="email" name="Email" id="Email" placeholder="youremail@email.com" required>
+  <br/>
+  <br>
+  <label for="Url">Website:</label>
+  <input type="url" name="Url" id="Url" placeholder="http://yourwebsite.com">
+  <br/>
+  <br>
+
+  <label for="Message">Suggestions? Questions? Would you like to contribute? We'd love to hear from you. Message us here:</label>
+  <br>
+  <textarea name="Message" id="Message" rows="6" cols="48"></textarea>
+  <br/>
+  <br>
+  <div class="center">
+  <input type="submit" name="Submit" id="Submit" value="Submit">
+  </div>
+  </form>
+  <div class="clear"></div>
+    <div class="footer">
+      <p>
+        The Book Club<br>
+        <a href="#mailinglist">Donate</a><br>
+        <a href=info@thebookclub.com</a><br>
+      </p>
+    </div>
+</body>
+</html>
